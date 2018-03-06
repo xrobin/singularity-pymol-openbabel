@@ -19,7 +19,7 @@ EOF
     #apt-get clean
     yum install -y curl bzip2
     # System dependencies for PyMOL
-    yum install -y libGL libGLU 
+    yum install -y libGL libGLU qt5-qtbase-gui
 
     # Openbabel from the system?
     # yum install openbabel
