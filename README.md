@@ -1,5 +1,8 @@
 # Singularity container with PyMOL & OpenBabel
 
+## To pull a pre-built container:
+singularity pull shub://xrobin/singularity-pymol-openbabel
+
 ## To build this container from scratch execute this:
 
 ```bash
