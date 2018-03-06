@@ -32,6 +32,7 @@ EOF
     fi
 
     # use conda to install some bioinfo tools
+    export PATH=/opt/miniconda2/bin:$PATH
     conda install --yes -c bioconda openbabel
     conda install --yes -c schrodinger pymol 
 
