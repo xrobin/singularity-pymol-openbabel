@@ -25,7 +25,7 @@ EOF
     # yum install openbabel
 
     # download and install miniconda2
-    if [ ! -d "/opt/miniconda2" ]; then
+    if [ ! -x "/opt/miniconda2/bin/conda" ]; then
       curl -sSL -O https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
       bash Miniconda2-latest-Linux-x86_64.sh -p /opt/miniconda2 -b
       rm -fr Miniconda2-latest-Linux-x86_64.sh
