@@ -1,7 +1,11 @@
 # Singularity container with PyMOL & OpenBabel
 
+https://www.singularity-hub.org/collections/695
+
 ## To pull a pre-built container:
+```bash
 singularity pull shub://xrobin/singularity-pymol-openbabel
+```
 
 ## To build this container from scratch execute this:
 
