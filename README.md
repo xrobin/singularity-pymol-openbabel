@@ -3,7 +3,7 @@
 ## To build this container from scratch execute this:
 
 ```bash
-sudo singularity build singularity-pymol-openbabel.img singularity-pymol-openbabel
+sudo singularity build singularity-pymol-openbabel.img singularity-pymol-openbabel.def
 ```
 
 ## To list the available apps inside the container
